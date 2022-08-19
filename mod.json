@@ -1,7 +1,8 @@
-name: Serpulo Kingdoms
-displayName: Serpulo [red]Kingdoms[]
+name: "Serpulo Kingdoms"
+displayName: "This isn't a mod."
 author: Rust_d
-description: what is a description
-version: "1.0"
-minGameVersion: "100.3"
+description: "fbjahbfabshfbabchjbhsafbB"
+version: "0.00001"
+minGameVersion: "135.2"
 dependencies: [ ]
+hidden: false
