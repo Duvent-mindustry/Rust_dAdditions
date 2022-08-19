@@ -1,0 +1,7 @@
+name: Serpulo Kingdoms
+displayName: Serpulo [red]Kingdoms[]
+author: Rust_d
+description: what is a description
+version: "1.0"
+minGameVersion: "100.3"
+dependencies: [ ]
