@@ -24,7 +24,6 @@
         "damage": 384,
         "height": 10,
         "width": 8,
-            }
         }
     },
     "requirements": [
@@ -34,5 +33,4 @@
     ],
     "category": "turret",
     "research": "duo"
-    }
 }
