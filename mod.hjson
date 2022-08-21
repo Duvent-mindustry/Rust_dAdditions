@@ -1,8 +1,8 @@
-name: "Serpulo Kingdoms"
-displayName: "This isn't a mod."
+name: "Duo Xpansion"
+displayName: "Duo Xpansion"
 author: Rust_d
-description: "fbjahbfabshfbabchjbhsafbB"
-version: "0.00001"
+description: "adds loads of variations of turrets based on the simplicity of the duo"
+version: "0.01"
 minGameVersion: "135.2"
 dependencies: [ ]
 hidden: false
