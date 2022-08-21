@@ -8,7 +8,7 @@
     "range": 160,
     "inaccuracy": 2,
     "shots": 2,
-    "spread": 8,
+    "spread": 16,
     "alternate": true,
     "targetAir": true,
     "targetGround": true,
@@ -21,7 +21,7 @@
         "sprite": "bullet",
         "speed": 6,
         "lifetime": 38,
-        "damage": 384,
+        "damage": 18,
         "height": 10,
         "width": 8,
         }
