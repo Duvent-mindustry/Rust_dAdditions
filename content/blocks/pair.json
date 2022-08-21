@@ -9,7 +9,7 @@
     "inaccuracy": 2,
     "targetAir": true,
     "targetGround": true,
-    "recoilAmount": 0.8,
+    "recoilAmount": 0.6,
     "rotateSpeed": 8,
     "shoot": {
          "type": "ShootAlternate",
@@ -40,8 +40,8 @@
     },
     "requirements": [
         "copper/60",
-        "lead/30",
-	      "graphite/15"
+        "lead/20",
+	"graphite/10"
     ],
     "category": "turret",
     "research": "duo"
