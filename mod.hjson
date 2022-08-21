@@ -3,6 +3,6 @@ displayName: "Duo Xpansion"
 author: Rust_d
 description: "adds loads of variations of turrets based on the simplicity of the duo"
 version: "0.01"
-minGameVersion: "135.2"
+minGameVersion: "136"
 dependencies: [ ]
 hidden: false
