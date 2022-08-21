@@ -13,6 +13,13 @@ graphite/15
 ]
 health: 125
 range: 200
+shoot: {
+type: ShootAlternate
+shots: 1
+barrels: 2
+spread: 4
+}
+inaccuracy: 4
 ammoTypes: {
 copper: {
 width: 10
@@ -37,12 +44,7 @@ ammoMultiplier: 3
 reload: 12
 recoil: 3
 rotateSpeed: 8
-shoot: {
-type: ShootAlternate
-spread: 3
-}
-
-health: 960
+health: 375
 shake: 1
 ammoEjectBack: 1
 ammoUseEffect: casing2
