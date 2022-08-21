@@ -1,3 +1,5 @@
+name: Pair
+description: An upgraded and stronger version of the duo
 size: 2
 category: turret
 research: {
