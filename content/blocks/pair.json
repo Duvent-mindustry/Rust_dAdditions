@@ -14,10 +14,10 @@
     "shoot": {
          "type": "ShootAlternate",
          "barrels": 2,
-         "spread": 8,
+         "spread": 6,
          "shots": 1
          },    
-    "shootSound": "shootBig",
+    "shootSound": "shoot",
     "ammoTypes": {
         "copper": {
         "type": "BasicBulletType",
@@ -25,8 +25,8 @@
         "speed": 6,
         "lifetime": 36,
         "damage": 18,
-        "height": 10,
-        "width": 8,
+        "height": 11,
+        "width": 9,
         }
         "graphite": {
         "type": "BasicBulletType",
@@ -34,8 +34,8 @@
         "speed": 4,
         "lifetime": 42,
         "damage": 27,
-        "height": 12,
-        "width": 10,
+        "height": 13,
+        "width": 11,
         }
     },
     "requirements": [
