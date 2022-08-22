@@ -1,0 +1,57 @@
+{
+    "type": "ItemTurret",
+    "description": "A Heavier version of the duo",
+    "localizedName": "Double",
+    "size": 2,
+    "health": 500,
+    "reloadTime": 32,
+    "range": 160,
+    "inaccuracy": 2,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 0.6,
+    "rotateSpeed": 8,
+    "shoot": {
+         "type": "ShootAlternate",
+         "barrels": 2,
+         "spread": 7,
+         "shots": 2
+         },    
+    "shootSound": "shoot",
+    "ammoTypes": {
+        "copper": {
+        "type": "BasicBulletType",
+        "sprite": "bullet",
+        "speed": 5,
+        "lifetime": 35,
+        "damage": 18,
+        "height": 12,
+        "width": 10,
+        }
+        "graphite": {
+        "type": "BasicBulletType",
+        "sprite": "bullet",
+        "speed": 3,
+        "lifetime": 45,
+        "damage": 27,
+        "height": 14,
+        "width": 12,
+        }
+        "titanium": {
+        "type": "BasicBulletType",
+        "sprite": "bullet",
+        "speed": 3,
+        "lifetime": 50,
+        "damage": 36,
+        "height": 15,
+        "width": 13,
+        }
+    },
+    "requirements": [
+        "copper/70",
+        "lead/10",
+	"graphite/20"
+    ],
+    "category": "turret",
+    "research": "pair"
+}
