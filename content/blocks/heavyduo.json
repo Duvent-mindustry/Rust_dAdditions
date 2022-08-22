@@ -9,7 +9,7 @@
     "inaccuracy": 2,
     "targetAir": true,
     "targetGround": true,
-    "recoilAmount": 0.6,
+    "recoilAmount": 0.8,
     "rotateSpeed": 8,
     "shoot": {
          "type": "ShootAlternate",
