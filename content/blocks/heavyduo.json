@@ -4,7 +4,7 @@
     "localizedName": "Double",
     "size": 2,
     "health": 500,
-    "reloadTime": 32,
+    "reloadTime": 8,
     "range": 180,
     "inaccuracy": 2,
     "targetAir": true,
@@ -15,9 +15,9 @@
          "type": "ShootAlternate",
          "barrels": 2,
          "spread": 7,
-         "shots": 2
+         "shots": 1
          },    
-    "shootSound": "shootSmite",
+    "shootSound": "shootBig",
     "ammoTypes": {
         "copper": {
         "type": "BasicBulletType",
