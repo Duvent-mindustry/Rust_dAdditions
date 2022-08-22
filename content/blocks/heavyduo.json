@@ -17,7 +17,7 @@
          "spread": 7,
          "shots": 2
          },    
-    "shootSound": "shoot",
+    "shootSound": "shootSmite",
     "ammoTypes": {
         "copper": {
         "type": "BasicBulletType",
