@@ -3,7 +3,7 @@
     "description": "An Upgraded Duo",
     "localizedName": "Pair",
     "size": 2,
-    "health": 375,
+    "health": 350,
     "reloadTime": 16,
     "range": 160,
     "inaccuracy": 2,
@@ -24,7 +24,7 @@
         "sprite": "bullet",
         "speed": 6,
         "lifetime": 36,
-        "damage": 18,
+        "damage": 12,
         "height": 11,
         "width": 9,
         }
@@ -33,7 +33,7 @@
         "sprite": "bullet",
         "speed": 4,
         "lifetime": 42,
-        "damage": 27,
+        "damage": 24,
         "height": 13,
         "width": 11,
         }
