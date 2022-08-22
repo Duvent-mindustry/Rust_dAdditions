@@ -1,0 +1,37 @@
+{
+    "type": "ItemTurret",
+    "description": "CHUNK",
+    "localizedName": "THE BIG ONE",
+    "size": 4,
+    "health": 2500,
+    "reloadTime": 16,
+    "range": 320,
+    "inaccuracy": 2,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 0.6,
+    "rotateSpeed": 4,
+    "shoot": {
+         "type": "ShootAlternate",
+         "barrels": 2,
+         "spread": 8,
+         "shots": 1
+         },    
+    "shootSound": "shoot",
+    "ammoTypes": {
+        "copper": {
+        "type": "BasicBulletType",
+        "sprite": "bullet",
+        "speed": 6,
+        "lifetime": 80,
+        "damage": 900,
+        "height": 13,
+        "width": 11,
+        }
+    },
+    "requirements": [
+        "copper/4000",
+    ],
+    "category": "turret",
+    "research": "duo"
+}
