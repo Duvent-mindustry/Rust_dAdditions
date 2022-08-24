@@ -4,42 +4,41 @@
     "localizedName": "Weld",
     "size": 3,
     "health": 1760,
-    "reloadTime": 200,
+    "reload": 100,
     "range": 180,
     "inaccuracy": 0,
     "targetAir": true,
     "targetGround": true,
     "recoilAmount": 1.8,
     "rotateSpeed": 8,  
+    "shootCone": 15,
+    "shootSound": "shotgun",
     "shoot": {
         "shots": 4,
         "spread": 12.5,
-        "shootSound": "shotgun",
-	"shootCone": 15,
     }
     "ammoTypes": {
         "surge-alloy": {
            "speed": 0.01,
-           "damage": 365,
-           "width": 12.5,
+           "damage": 210,
+           "width": 15,
            "type": "ShrapnelBulletType",
            "lifetime": 15,
            "length": 150,
-           "serrations": 4,
            "fromColor": "F3E979",
            "toColor": "F3E979",
            "lightning": 2,
            "lightningDamage": 6,
            "lightningLength": 10,
-           "lightningCone": 15,
+           "lightningCone": 10,
            "lightningLengthRand": 10,
         }
     },
     "requirements": [
-        "copper/60",
-        "lead/20",
-	"graphite/10"
+        "surge-alloy/75",
+        "lead/225",
+	"graphite/225"
     ],
     "category": "turret",
-    "research": "duo"
+    "research": "fuse"
 }
