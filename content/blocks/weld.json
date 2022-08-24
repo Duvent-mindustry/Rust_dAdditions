@@ -1,0 +1,44 @@
+{
+    "type": "ItemTurret",
+    "description": "An alternative shotgun that uses surge alloy to create electrified long range blasts",
+    "localizedName": "Weld",
+    "size": 3,
+    "health": 1760,
+    "reloadTime": 16,
+    "range": 180,
+    "inaccuracy": 0,
+    "targetAir": true,
+    "targetGround": true,
+    "recoilAmount": 0.6,
+    "rotateSpeed": 8,  
+    "shootSound": "shotgun",
+    "shoot": {
+      "shots": 4,
+      "spread": 12.5,
+    }
+    "ammoTypes": {
+        "surge-alloy": {
+           "speed": 0.01,
+           "damage": 300,
+           "width": 10,
+           "type": "ShrapnelBulletType",
+           "lifetime": 15,
+           "length": 180,
+           "serrations"": 4,
+           "fromColor": "F3E979",
+           "toColor": "F3E979",
+           "lightning": 2,
+           "lightningDamage": 6,
+           "lightningLength": 15,
+           "lightningCone": 10,
+           "lightningLengthRand": 15,
+        }
+    },
+    "requirements": [
+        "copper/60",
+        "lead/20",
+	"graphite/10"
+    ],
+    "category": "turret",
+    "research": "duo"
+}
