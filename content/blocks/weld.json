@@ -16,16 +16,16 @@
     "ammoTypes": {
         "surge-alloy": {
            "speed": 0.01,
-           "damage": 210,
+           "damage": 630,
            "width": 15,
            "type": "ShrapnelBulletType",
            "lifetime": 15,
            "length": 150,
            "fromColor": "F3E979",
            "toColor": "F3E979",
-           "lightning": 2,
-           "lightningDamage": 6,
-           "lightningLength": 10,
+           "lightning": 4,
+           "lightningDamage": 10,
+           "lightningLength": 15,
            "lightningCone": 10,
            "lightningLengthRand": 10,
         }
