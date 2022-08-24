@@ -4,19 +4,15 @@
     "localizedName": "Weld",
     "size": 3,
     "health": 1760,
-    "reload": 100,
+    "reload": 50,
     "range": 180,
     "inaccuracy": 0,
     "targetAir": true,
     "targetGround": true,
-    "recoilAmount": 1.8,
-    "rotateSpeed": 4,  
-    "shootCone": 15,
+    "recoilAmount": 3.6,
+    "rotateSpeed": 2,
+    "shootShake": 8
     "shootSound": "shotgun",
-    "shoot": {
-        "shots": 4,
-        "spread": 12.5,
-    }
     "ammoTypes": {
         "surge-alloy": {
            "speed": 0.01,
