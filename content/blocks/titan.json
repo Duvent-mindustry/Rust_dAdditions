@@ -1,0 +1,34 @@
+{
+    "type": "ItemTurret",
+    "description": "A large destructive cannon that is significantly stronger than previous turrets",
+    "localizedName": "Titan",
+    "size": 3,
+    "health": 1500,
+    "reload": 60,
+    "range": 400,
+    "inaccuracy": 0,
+    "targetAir": false,
+    "targetGround": true,
+    "recoilAmount": 4.8,
+    "rotateSpeed": 2, 
+    "shootSound": "shootBig",
+    "ammoTypes": {
+        "thorium": {
+        "type": "BasicBulletType",
+        "sprite": "penetratingBullet",
+        "speed": 6,
+        "lifetime": 200,
+        "damage": 160,
+        "height": 12,
+        "width": 12,
+        }
+    },
+    "requirements": [
+        "copper/250",
+        "thorium/130",
+        "phase-fabric/70"
+	      "graphite/200"
+    ],
+    "category": "turret",
+    "research": "duo"
+}
