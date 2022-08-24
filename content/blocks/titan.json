@@ -15,7 +15,7 @@
     "ammoTypes": {
         "thorium": {
         "type": "BasicBulletType",
-        "sprite": "penetratingBullet",
+        "sprite": "bullet",
         "speed": 6,
         "lifetime": 200,
         "damage": 160,
