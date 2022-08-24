@@ -11,10 +11,11 @@
     "targetGround": true,
     "recoilAmount": 1.8,
     "rotateSpeed": 8,  
-    "shootSound": "shotgun",
     "shoot": {
-      "shots": 4,
-      "spread": 12.5,
+        "shots": 4,
+        "spread": 12.5,
+        "shootSound": "shotgun",
+	"shootCone": 15,
     }
     "ammoTypes": {
         "surge-alloy": {
