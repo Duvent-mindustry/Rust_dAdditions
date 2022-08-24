@@ -1,6 +1,6 @@
 {
     "type": "ItemTurret",
-    "description": "An alternative shotgun that uses surge alloy to create electrified long range blasts",
+    "description": "An alternative shotgun that uses surge alloy to create electrified long range blast, great at single target destruction",
     "localizedName": "Weld",
     "size": 3,
     "health": 1540,
@@ -31,9 +31,9 @@
         }
     },
     "requirements": [
-        "surge-alloy/75",
-        "lead/225",
-	"graphite/225"
+        "surge-alloy/105",
+        "lead/315",
+	"graphite/315"
     ],
     "category": "turret",
     "research": "fuse"
