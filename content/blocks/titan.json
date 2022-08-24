@@ -26,9 +26,9 @@
     "requirements": [
         "copper/250",
         "thorium/130",
-        "phase-fabric/70"
-	      "graphite/200"
+        "phase-fabric/70",
+	"graphite/200",
     ],
     "category": "turret",
-    "research": "ripple"
+    "research": "ripple",
 }
