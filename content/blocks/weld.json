@@ -12,7 +12,7 @@
     "recoilAmount": 3.6,
     "rotateSpeed": 2,
     "shootShake": 8
-    "shootSound": "yellowgun.ogg",
+    "shootSound": "yellowgun",
     "ammoTypes": {
         "surge-alloy": {
            "speed": 0.01,
