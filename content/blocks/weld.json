@@ -4,7 +4,7 @@
     "localizedName": "Weld",
     "size": 3,
     "health": 1760,
-    "reload": 45,
+    "reload": 60,
     "range": 180,
     "inaccuracy": 0,
     "targetAir": true,
@@ -16,7 +16,7 @@
     "ammoTypes": {
         "surge-alloy": {
            "speed": 0.01,
-           "damage": 1050,
+           "damage": 1155,
            "width": 15,
            "type": "ShrapnelBulletType",
            "lifetime": 15,
