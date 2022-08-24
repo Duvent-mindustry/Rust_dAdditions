@@ -2,7 +2,7 @@ name: "Duo Xpansion"
 displayName: "Rust_d Additions"
 author: Rust_d
 description: "random content i think of once in a while"
-version: "0.04"
+version: "0.12"
 minGameVersion: "136"
 dependencies: [ ]
 hidden: false
