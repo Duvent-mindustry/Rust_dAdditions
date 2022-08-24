@@ -1,8 +1,8 @@
 name: "Duo Xpansion"
-displayName: "Duo Xpansion"
+displayName: "Rust_d Additions"
 author: Rust_d
-description: "adds loads of variations of turrets based on the simplicity of the duo"
-version: "0.01"
+description: "random content i think of once in a while"
+version: "0.04"
 minGameVersion: "136"
 dependencies: [ ]
 hidden: false
