@@ -4,7 +4,7 @@
     "localizedName": "Weld",
     "size": 3,
     "health": 1760,
-    "reload": 50,
+    "reload": 20,
     "range": 180,
     "inaccuracy": 0,
     "targetAir": true,
