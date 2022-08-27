@@ -30,9 +30,8 @@
         }
     },
     "requirements": [
-        "graphite/105",
-        "lead/315",
-        "copper/210"
+        "lead/210",
+        "copper/105"
 	"graphite/315"
     ],
     "category": "turret",
