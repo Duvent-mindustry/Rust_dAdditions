@@ -12,6 +12,7 @@
     "shootSound": "ahoot",
     "ammoTypes": {
         "copper": {
+           "type": "BasicBulletType"
            "damage": 90,
            "aimChangeSpeed": 6,
            "shootLength": 100,
