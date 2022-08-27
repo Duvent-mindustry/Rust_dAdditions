@@ -21,7 +21,12 @@
         "lifetime": 180,
         "damage": 90,
         "height": 10,
-        "width": 8,
+        "width": 9,
+	"trailColor": "A3A3A3",
+        "trailParam": 2,
+        "trailLength": 12,
+        "trailWidth": 4,
+        "trailEffect": "none",
         }
     },
     "requirements": [
