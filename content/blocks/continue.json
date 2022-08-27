@@ -13,8 +13,8 @@
     "ammoTypes": {
         "copper": {
            "damage": 90,
-           "aimChangeSpeed": 6
-           "shootLength": 100
+           "aimChangeSpeed": 6,
+           "shootLength": 100,
         }
     },
     "requirements": [
