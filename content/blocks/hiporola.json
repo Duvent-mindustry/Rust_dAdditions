@@ -12,7 +12,7 @@
     "recoilAmount": 1.2,
     "rotateSpeed": 2,
     "shootShake": 16
-    "shootSound": "shootBig",
+    "shootSound": "routershooter",
     "ammoTypes": {
         "copper": {
         "type": "BasicBulletType",
