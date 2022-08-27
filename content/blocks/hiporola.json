@@ -20,8 +20,8 @@
         "speed": 3,
         "lifetime": 180,
         "damage": 90,
-        "height": 16,
-        "width": 16,
+        "height": 12,
+        "width": 12,
         }
     },
     "requirements": [
