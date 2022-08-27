@@ -1,0 +1,35 @@
+{
+    "type": "ItemTurret",
+    "description": "HIgh POwer ROuter LAuncher",
+    "localizedName": "HI.PO.RO.LA.",
+    "size": 3,
+    "health": 1540,
+    "reload": 30,
+    "range": 360,
+    "inaccuracy": 5,
+    "targetAir": false,
+    "targetGround": true,
+    "recoilAmount": 1.2,
+    "rotateSpeed": 2,
+    "shootShake": 16
+    "shootSound": "shootBig",
+    "ammoTypes": {
+        "copper": {
+        "type": "BasicBulletType",
+        "sprite": "duo-xpansion-shouter",
+        "speed": 3,
+        "lifetime": 180,
+        "damage": 90,
+        "height": 16,
+        "width": 16,
+        }
+    },
+    "requirements": [
+        "graphite/105",
+        "lead/315",
+        "copper/210"
+	"graphite/315"
+    ],
+    "category": "turret",
+    "research": "spectre"
+}
