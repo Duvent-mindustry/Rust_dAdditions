@@ -53,6 +53,8 @@
         "copper/105"
 	"graphite/315"
     ],
+    "envRequired": 0,
+    "enDisabled": 4,
     "category": "turret",
     "research": "spectre"
 }
