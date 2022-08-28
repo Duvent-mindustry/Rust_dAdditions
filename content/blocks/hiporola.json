@@ -30,7 +30,7 @@
         "trailEffect": "none",
 	"homingPower": 0.15,
 	"homingRange": 15,
-	"shootEffect": "shootBigSmoke",
+	"shootEffect": "explosion",
 	"status": "electrified",
 	"statusDuration": 125,
         }
