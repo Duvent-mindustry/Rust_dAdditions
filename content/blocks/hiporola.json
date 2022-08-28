@@ -12,7 +12,7 @@
     "targetGround": true,
     "recoilAmount": 2.4,
     "rotateSpeed": 2,
-    "shootShake": 16
+    "shootShake": 16,
     "shootSound": "routershooter",
     "drawer": {
 	"type": "drawTurret",
@@ -30,8 +30,8 @@
         "copper": {
         "type": "BasicBulletType",
         "sprite": "duo-xpansion-shouter",
-        "speed": 6,
-        "lifetime": 180,
+        "speed": 8,
+        "lifetime": 100,
         "damage": 240,
         "height": 10.5,
         "width": 10,
@@ -40,7 +40,7 @@
         "trailLength": 12,
         "trailWidth": 2,
         "trailEffect": "none",
-	"homingPower": 0.15,
+	"homingPower": 1,
 	"homingRange": 15,
 	"shootEffect": "explosion",
 	"status": "electrified",
