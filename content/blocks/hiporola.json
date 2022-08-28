@@ -7,7 +7,7 @@
     "health": 1540,
     "reload": 15,
     "range": 360,
-    "inaccuracy": 15,
+    "inaccuracy": 0,
     "targetAir": false,
     "targetGround": true,
     "recoilAmount": 2.4,
@@ -45,8 +45,6 @@
 	"shootEffect": "explosion",
 	"status": "electrified",
 	"statusDuration": 125,
-	"splashDamage": 60,
-	"splashDamageRadius": 60
         }
     },
     "requirements": [
