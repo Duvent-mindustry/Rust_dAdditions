@@ -34,7 +34,7 @@
 	"status": "electrified",
 	"statusDuration": 125,
 	"splashDamage: 60,
-	"splashDanageRadius": 60
+	"splashDamageRadius": 60
         }
     },
     "requirements": [
