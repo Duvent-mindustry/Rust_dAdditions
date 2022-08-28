@@ -4,15 +4,16 @@
     "localizedName": "HI.PO.RO.LA.",
     "size": 3,
     "health": 1540,
-    "reload": 30,
+    "reload": 20,
     "range": 360,
-    "inaccuracy": 30,
+    "inaccuracy": 20,
     "targetAir": false,
     "targetGround": true,
     "recoilAmount": 2.4,
     "rotateSpeed": 2,
     "shootShake": 16
     "shootSound": "routershooter",
+    "heatColor": "BF7FFF",
     "ammoTypes": {
         "copper": {
         "type": "BasicBulletType",
@@ -27,9 +28,11 @@
         "trailLength": 12,
         "trailWidth": 2,
         "trailEffect": "none",
-	"homingPower": 0.1,
-	"homingRange": 10,
+	"homingPower": 0.15,
+	"homingRange": 15,
 	"shootEffect": "shootBigSmoke",
+	"status": "electrified",
+	"statusDuration": 250,
         }
     },
     "requirements": [
