@@ -2,7 +2,7 @@
     "type": "PowerTurret",
     "description": "Shoots a Barrage of plasma blasts",
     "localizedName": "Gleam",
-    "size": 4,
+    "size": 3,
     "health": 1500,
     "reload": 60,
     "range": 180,
@@ -15,22 +15,22 @@
     "hasPower": true,
     "heatColor": "51B1CC",
     "consumes" : {
-	 "power": 8
+	 "power": 7
     },
     "shoot": {
          "type": "ShootPattern",
          "shots": 6,
-         "shotDelay": 4,
+         "shotDelay": 6,
          },    
-    "shootSound": "plasmaBoom",
+    "shootSound": "plasmaboom",
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "bullet",
         "speed": 8,
-        "lifetime": 60,
-        "damage": 70,
-        "height": 11,
-        "width": 9,
+        "lifetime": 15,
+        "damage": 45,
+        "height": 14,
+        "width": 10,
         "frontColor": "66DDFF",
         "backColor": "51B1CC",
       },
