@@ -14,6 +14,9 @@
     "update": true,
     "hasPower": true,
     "heatColor": "51B1CC",
+    "consumes" : {
+	 "power": 8
+    },
     "shoot": {
          "type": "ShootPattern",
          "shots": 6,
@@ -30,8 +33,7 @@
         "width": 9,
         "frontColor": "66DDFF",
         "backColor": "51B1CC",
-        }
-    },
+      },
     "requirements": [
         "thorium/105",
         "graphite/210",
