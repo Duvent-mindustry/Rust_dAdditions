@@ -23,8 +23,8 @@
          "shots": 8,
          "shotDelay": 6,
          },    
-    "shootSound": "lightningCharge",
-    "shootEffect": "lancerLaserShoot",
+    "shootSound": "laser",
+    "shootEffect": "lightningCharge",
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "bullet",
