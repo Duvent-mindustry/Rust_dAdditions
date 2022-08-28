@@ -14,7 +14,6 @@
     "rotateSpeed": 2,
     "shootShake": 16
     "shootSound": "routershooter",
-    "heatColor": "7A28CC",
     "drawer": {
 	"type": "drawTurret",
         "parts": [
