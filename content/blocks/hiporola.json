@@ -33,7 +33,7 @@
 	"shootEffect": "explosion",
 	"status": "electrified",
 	"statusDuration": 125,
-	"splashDamage: 60,
+	"splashDamage": 60,
 	"splashDamageRadius": 60
         }
     },
