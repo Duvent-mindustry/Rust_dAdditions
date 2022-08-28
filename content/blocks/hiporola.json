@@ -19,7 +19,7 @@
         "parts": [
           {
             "type": "RegionPart",
-            "moveY": 2,
+            "moveY": 4,
             "mirror": true,
             "progress": "recoil",
           }
