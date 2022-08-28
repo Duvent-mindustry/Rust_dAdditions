@@ -11,7 +11,7 @@
     "targetGround": true,
     "recoilAmount": 3.6,
     "rotateSpeed": 2,
-    "shootShake": 8
+    "shootShake": 8,
     "shootSound": "yellowgun",
     "ammoTypes": {
         "surge-alloy": {
@@ -36,6 +36,6 @@
 	"graphite/315"
     ],
     "category": "turret",
-    "research": "fuse"
+    "research": "fuse",
     "coolantMultiplier": 15,
 }
