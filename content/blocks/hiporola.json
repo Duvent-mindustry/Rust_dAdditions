@@ -13,7 +13,7 @@
     "rotateSpeed": 2,
     "shootShake": 16
     "shootSound": "routershooter",
-    "heatColor": "7C47B2",
+    "heatColor": "7A28CC",
     "ammoTypes": {
         "copper": {
         "type": "BasicBulletType",
