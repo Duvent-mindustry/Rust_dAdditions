@@ -14,6 +14,14 @@
     "shootShake": 16
     "shootSound": "routershooter",
     "heatColor": "7A28CC",
+    "parts": [
+      {
+        "type": "RegionPart",,
+        "moveY": 2,
+        "mirror": true,
+        "progress": "recoil"
+      }
+    ]
     "ammoTypes": {
         "copper": {
         "type": "BasicBulletType",
