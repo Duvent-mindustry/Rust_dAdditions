@@ -27,6 +27,7 @@
         "trailLength": 12,
         "trailWidth": 2,
         "trailEffect": "none",
+	"ammoMultiplier": 0.2,
         }
     },
     "requirements": [
