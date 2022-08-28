@@ -37,4 +37,5 @@
     ],
     "category": "turret",
     "research": "fuse"
+    "coolantMultiplier": 15,
 }
