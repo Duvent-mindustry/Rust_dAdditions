@@ -36,7 +36,7 @@
         "frontColor": "66DDFF",
         "backColor": "51B1CC",
 	"status": "electrified",
-	"statusDuration": 125,
+	"statusDuration": 250,
       },
     "requirements": [
         "thorium/105",
