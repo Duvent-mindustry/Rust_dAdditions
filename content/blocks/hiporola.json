@@ -20,7 +20,7 @@
           {
             "type": "RegionPart",
 	    "suffix": "-panel",
-            "moveY": 7,
+            "moveY": 6,
             "mirror": false,
             "progress": "recoil",
           }
@@ -31,7 +31,7 @@
         "type": "BasicBulletType",
         "sprite": "duo-xpansion-shouter",
         "speed": 8,
-        "lifetime": 100,
+        "lifetime": 60,
         "damage": 240,
         "height": 10.5,
         "width": 10,
