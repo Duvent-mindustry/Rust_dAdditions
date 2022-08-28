@@ -6,7 +6,7 @@
     "health": 1540,
     "reload": 40,
     "range": 360,
-    "inaccuracy": 5,
+    "inaccuracy": 15,
     "targetAir": false,
     "targetGround": true,
     "recoilAmount": 2.4,
@@ -27,7 +27,9 @@
         "trailLength": 12,
         "trailWidth": 2,
         "trailEffect": "none",
-	"ammoMultiplier": 0.2,
+	"homingPower": 1,
+	"homingRange": 180,
+	"shootEffect": "shootBigSmoke",
         }
     },
     "requirements": [
