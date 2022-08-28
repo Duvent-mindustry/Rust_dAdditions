@@ -2,6 +2,7 @@
     "type": "ItemTurret",
     "description": "HIgh POwer ROuter LAuncher",
     "localizedName": "HI.PO.RO.LA.",
+    "squareSprite": false,
     "size": 3,
     "health": 1540,
     "reload": 20,
