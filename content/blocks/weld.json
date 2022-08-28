@@ -16,7 +16,7 @@
     "ammoTypes": {
         "surge-alloy": {
            "speed": 0.01,
-           "damage": 1155,
+           "damage": 945,
            "width": 15,
            "type": "ShrapnelBulletType",
            "lifetime": 15,
