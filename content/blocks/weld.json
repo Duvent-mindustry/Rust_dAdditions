@@ -1,5 +1,5 @@
 {
-    "type": "CooledTurret",
+    "type": "ItemTurret",
     "description": "An alternative shotgun that uses surge alloy to create electrified long range blast, great at single target destruction",
     "localizedName": "Weld",
     "size": 3,
