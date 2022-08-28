@@ -19,9 +19,9 @@
         "parts": [
           {
             "type": "RegionPart",
-	    "suffix": "-side",
-            "moveY": 6,
-            "mirror": true,
+	    "suffix": "-panel",
+            "moveY": 7,
+            "mirror": false,
             "progress": "recoil",
           }
         ]
