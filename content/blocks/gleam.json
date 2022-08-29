@@ -32,18 +32,18 @@
         "lifetime": 30,
         "damage": 45,
         "height": 12,
-        "width": 6,
+        "width": 12,
         "frontColor": "66DDFF",
         "backColor": "51B1CC",
 	"status": "electrified",
 	"statusDuration": 250,
-	"fragBullets": 6,
+	"fragBullets": 4,
 	"fragBullet": {
              "type": "LightningBulletType",
 	     "lightningColor": "66DDFF",
 	     "lightningCone": 360,
-	     "damage": 30,
-	     "lightningLength": 10,
+	     "damage": 20,
+	     "lightningLength": 5,
 	  }
       },
     "requirements": [
