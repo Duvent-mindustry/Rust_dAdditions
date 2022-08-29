@@ -18,7 +18,7 @@
     "consumes" : {
 	 "power": 8
     },
-    "liquidConsumed": 1,
+    "liquidConsumed": 2,
     "shootSound": "lazorrrrr",
     "loopSound": "loopneut",
     "hitEffect": "lightningCharge",
@@ -27,13 +27,13 @@
 	"cryofluid": {
         "type": "ContinuousFlameBulletType",
         "colors": ["7FBFFF", "66B2FF", "4CA5FF", "3299FF"],
-        "damage": 5,
+        "damage": 15,
         "flareWidth": 4,
         "flareLength": 10,
         "flareColor": "66B2FF",
         "width": 4,
 	"length": 120,
-	"divisions": 4,
+	"divisions": 8,
 	"drawSize": 90,
 	"status": "electrified",
 	"statusDuration": 250,
