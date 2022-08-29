@@ -1,10 +1,10 @@
 {
-    "type": "PowerTurret",
-    "description": "Shoots a Barrage of plasma blasts",
+    "type": "LaserTurret",
+    "description": "Creates a beam of electrons towards enemies",
     "localizedName": "Gleam",
     "size": 3,
     "health": 1200,
-    "reload": 120,
+    "reload": 80,
     "range": 180,
     "inaccuracy": 3,
     "targetAir": true,
@@ -21,10 +21,10 @@
     "shoot": {
          "type": "ShootPattern",
          "shots": 8,
-         "shotDelay": 6,
+         "shotDelay": 4,
          },    
     "shootSound": "laser",
-    "shootEffect": "lightningCharge",
+    "shootEffect": "lightningShoot",
     "shootType": {
         "type": "missileBulletType",
         "sprite": "bullet",
@@ -32,13 +32,13 @@
         "lifetime": 30,
         "damage": 45,
         "height": 12,
-        "width": 12,
+        "width": 6,
         "frontColor": "66DDFF",
         "backColor": "51B1CC",
 	"status": "electrified",
 	"statusDuration": 250,
-	"weaveScale": 1,
-	"weaveMag": 1,
+	"weaveScale": 0,
+	"weaveMag": -1,
 	"trailColor": "66DDFF",
       },
     "requirements": [
@@ -46,7 +46,6 @@
         "graphite/210",
         "silicon/105"
         "lead/315",
-	"graphite/10"
     ],
     "category": "turret",
     "research": "lancer"
