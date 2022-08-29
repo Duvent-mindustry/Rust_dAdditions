@@ -20,7 +20,7 @@
     },
     "liquidConsumed": 1,
     "shootSound": "lazorrrrr",
-    "loopSound": "lazorrrrr",
+    "loopSound": "loopneut",
     "shootEffect": "lightningShoot",
     "ammoTypes": {
 	"cryofluid": {
