@@ -35,7 +35,8 @@
 	"drawSize": 270,
 	"status": "electrified",
 	"statusDuration": 250,
-      },
+      }
+   },
     "requirements": [
         "thorium/105",
         "graphite/210",
