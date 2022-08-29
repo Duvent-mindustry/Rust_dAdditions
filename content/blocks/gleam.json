@@ -26,7 +26,7 @@
 	"cryofluid": {
         "type": "ContinuousFlameBulletType",
         "colors": ["7FBFFF", "66B2FF", "4CA5FF", "3299FF"],
-        "damage": 45,
+        "damage": 30,
         "flareWidth": 4,
         "flareLength": 10,
         "flareColor": "66B2FF",
