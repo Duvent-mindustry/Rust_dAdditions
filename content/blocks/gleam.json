@@ -1,6 +1,6 @@
 {
     "type": "ChargeTurret",
-    "description": "Creates a barrage of neutrons towards enemies",
+    "description": "Combines Cryofluid and Energy to create a solid beam of electrified cryofluid to destroy enemies",
     "localizedName": "Gleam",
     "size": 3,
     "health": 1200,
@@ -18,36 +18,22 @@
     "consumes" : {
 	 "power": 8
     },
-    "shoot": {
-         "type": "ShootPattern",
-         "shots": 8,
-         "shotDelay": 4,
-         },    
-    "chargeTime": 30,
-    "chargeEffect": "lightningCharge",
-    "chargeBeginEffect": "lancerLaserChargeBegin",
-    "shootSound": "laser",
-    "shootEffect": "lightningShoot",
-    "shootType": {
-        "type": "BasicBulletType",
-        "sprite": "bullet",
-        "speed": 8,
-        "lifetime": 30,
-        "damage": 30,
-        "height": 15,
-        "width": 10,
-        "frontColor": "66DDFF",
-        "backColor": "51B1CC",
+    "liquidConsumed": 0.2,
+    "shootSound": "lazorrrrr",
+    "shootEffect": "lightningCharge",
+    "ammoTypes": {
+        "type": "ContinuousFlameBulletType",
+        "colors": ["7FBFFF", "66B2FF", "4CA5FF", "3299FF"],
+        "damage": 5,
+        "flareWidth": 5,
+        "flareLength": 30,
+        "flareColor": "66B2FF",
+        "width": 5.5,
+	"length": 180,
+	"divisions": 20,
+	"drawSize": 270,
 	"status": "electrified",
 	"statusDuration": 250,
-	"fragBullets": 4,
-	"fragBullet": {
-             "type": "LightningBulletType",
-	     "lightningColor": "66DDFF",
-	     "lightningCone": 360,
-	     "damage": 20,
-	     "lightningLength": 5,
-	  }
       },
     "requirements": [
         "thorium/105",
