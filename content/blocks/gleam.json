@@ -26,7 +26,7 @@
     "shootSound": "laser",
     "shootEffect": "lightningShoot",
     "shootType": {
-        "type": "missileBulletType",
+        "type": "BasicBulletType",
         "sprite": "bullet",
         "speed": 8,
         "lifetime": 30,
@@ -37,9 +37,14 @@
         "backColor": "51B1CC",
 	"status": "electrified",
 	"statusDuration": 250,
-	"weaveScale": 1,
-	"weaveMag": 2,
-	"trailColor": "66DDFF",
+	"fragBullets": 6,
+	"fragBullet": {
+             "type": "LightningBulletType",
+	     "lightningColor": "66DDFF",
+	     "lightningCone": 360,
+	     "damage": 30,
+	     "lightningLength": 10,
+	  }
       },
     "requirements": [
         "thorium/105",
