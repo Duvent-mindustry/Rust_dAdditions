@@ -1,5 +1,5 @@
 {
-    "type": "LaserTurret",
+    "type": "PowerTurret",
     "description": "Creates a barrage of neutrons towards enemies",
     "localizedName": "Gleam",
     "size": 3,
