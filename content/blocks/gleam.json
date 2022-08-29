@@ -14,7 +14,6 @@
     "update": true,
     "hasPower": true,
     "heatColor": "51B1CC",
-    "outlineColor": "36363C",
     "consumes" : {
 	 "power": 8
     },
