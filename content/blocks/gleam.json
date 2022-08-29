@@ -1,5 +1,5 @@
 {
-    "type": "ChargeTurret",
+    "type": "ContinuousLiquidTurret",
     "description": "Combines Cryofluid and Energy to create a solid beam of electrified cryofluid to destroy enemies",
     "localizedName": "Gleam",
     "size": 3,
@@ -22,6 +22,7 @@
     "shootSound": "lazorrrrr",
     "shootEffect": "lightningCharge",
     "ammoTypes": {
+	"cryofluid": {
         "type": "ContinuousFlameBulletType",
         "colors": ["7FBFFF", "66B2FF", "4CA5FF", "3299FF"],
         "damage": 5,
