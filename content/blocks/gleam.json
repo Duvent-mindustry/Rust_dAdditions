@@ -1,6 +1,6 @@
 {
     "type": "LaserTurret",
-    "description": "Creates a beam of electrons towards enemies",
+    "description": "Creates a barrage of neutrons towards enemies",
     "localizedName": "Gleam",
     "size": 3,
     "health": 1200,
