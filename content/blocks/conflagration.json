@@ -23,7 +23,7 @@
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "bullet"
-        "lifetime": 13,
+        "lifetime": 8,
         "speed": 10,
         "damage": 30,
         "hitSize": 15,
