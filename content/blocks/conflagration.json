@@ -1,0 +1,36 @@
+{
+    "type": "ItemTurret",
+    "description": "Creates a Sub-zero gas that freezes enemies to death",
+    "localizedName": "Glacier",
+    "size": 3,
+    "health": 1200,
+    "reload": 5,
+    "range": 90,
+    "inaccuracy": 15,
+    "targetAir": false,
+    "targetGround": true,
+    "recoilAmount": 10,
+    "rotateSpeed": 6,
+    "heatColor": "51B1CC",
+    "shootEffect": "shootPyraFlame",
+    "shootCone": 20,
+    "ammoTypes": {
+   	    "cryofluid": {
+            "type": "BasicBulletType",
+            "sprite": "bullet"
+            "lifetime": 15,
+            "speed": 5,
+            "damage": 15
+            "width": 1,
+            "length": 1,
+        }
+   },
+    "requirements": [
+        "thorium/210",
+        "graphite/210",
+        "titanium/105"
+        "lead/315",
+    ],
+    "category": "turret",
+    "research": "scorch"
+}
