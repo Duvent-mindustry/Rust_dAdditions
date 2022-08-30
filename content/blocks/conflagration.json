@@ -5,7 +5,7 @@
     "size": 3,
     "health": 1200,
     "reload": 6,
-    "range": 90,
+    "range": 72,
     "inaccuracy": 15,
     "targetAir": false,
     "targetGround": true,
@@ -23,10 +23,10 @@
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "bullet"
-        "lifetime": 15,
+        "lifetime": 12,
         "speed": 5,
         "damage": 15
-        "hitSize": 10,
+        "hitSize": 15
         "width": 0.1,
         "length": 0.05,
 	"hitEffect": "melting",
