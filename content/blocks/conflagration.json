@@ -1,5 +1,5 @@
 {
-    "type": "ItemTurret",
+    "type": "LiquidTurret",
     "description": "Creates a Sub-zero gas that freezes enemies to death",
     "localizedName": "Glacier",
     "size": 3,
