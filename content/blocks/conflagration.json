@@ -1,32 +1,35 @@
 {
-    "type": "ItemTurret",
-    "description": "Creates a Sub-zero gas that freezes enemies to death",
-    "localizedName": "Glacier",
+    "type": "PowerTurret",
+    "description": "Creates a Powerful plasma that burns straight through enemies",
+    "localizedName": "Conflagration",
     "size": 3,
     "health": 1200,
-    "reload": 3,
+    "reload": 12,
     "range": 90,
     "inaccuracy": 15,
     "targetAir": false,
     "targetGround": true,
     "rotateSpeed": 4,
+    "update": true,
+    "hasPower": true,
     "heatColor": "51B1CC",
-    "shootY": 3.5,
+    "consumes" : {
+	 "power": 4
+    },
+    "shootY": 4,
     "shootCone": 15,
     "shootEffect": "shootPyraFlame",
     "shootSound": "flame",
-    "ammoTypes": {
-   	    "titanium": {
-            "type": "BasicBulletType",
-            "sprite": "bullet"
-            "lifetime": 15,
-            "speed": 5,
-            "damage": 15
-            "hitSize": 10,
-            "width": 0.5,
-            "length": 0.5,
-        }
-   },
+    "shootType": {
+        "type": "BasicBulletType",
+        "sprite": "bullet"
+        "lifetime": 15,
+        "speed": 5,
+        "damage": 15
+        "hitSize": 10,
+        "width": 0.1,
+        "length": 0.05,
+      },
     "requirements": [
         "thorium/210",
         "graphite/210",
