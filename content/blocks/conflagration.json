@@ -30,6 +30,7 @@
         "width": 0.1,
         "length": 0.05,
 	"hitEffect": "melting",
+        "despawnEffect": "melting",
 	"status": "melting",
 	"statusDuration": 750,
       },
