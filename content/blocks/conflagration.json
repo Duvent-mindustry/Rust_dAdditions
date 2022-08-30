@@ -4,9 +4,9 @@
     "localizedName": "Conflagration",
     "size": 3,
     "health": 1200,
-    "reload": 6,
+    "reload": 3,
     "range": 72,
-    "inaccuracy": 15,
+    "inaccuracy": 10,
     "targetAir": false,
     "targetGround": true,
     "rotateSpeed": 4,
@@ -17,14 +17,14 @@
 	 "power": 4
     },
     "shootY": 4,
-    "shootCone": 15,
+    "shootCone": 10,
     "shootEffect": "shootPyraFlame",
     "shootSound": "flame",
     "shootType": {
         "type": "BasicBulletType",
         "sprite": "bullet"
-        "lifetime": 12,
-        "speed": 5,
+        "lifetime": 13,
+        "speed": 10,
         "damage": 15
         "hitSize": 15
         "width": 0.1,
