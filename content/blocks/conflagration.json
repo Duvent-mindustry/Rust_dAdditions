@@ -36,7 +36,7 @@
             "sizeInterp": "pow3In",
             "length": 15,
             "width": 15,
-            "lifetime" 15,
+            "lifetime": 15,
             "colorFrom": "51B1CC",
             "colorTo": "51B1CC",
             "cone": 30
