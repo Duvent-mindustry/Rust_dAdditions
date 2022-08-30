@@ -4,16 +4,16 @@
     "localizedName": "Glacier",
     "size": 3,
     "health": 1200,
-    "reload": 5,
+    "reload": 1,
     "range": 90,
-    "inaccuracy": 15,
+    "inaccuracy": 30,
     "targetAir": false,
     "targetGround": true,
-    "recoilAmount": 10,
+    "recoilAmount": 0,
     "rotateSpeed": 6,
     "heatColor": "51B1CC",
-    "shootEffect": "shootPyraFlame",
-    "shootCone": 20,
+    "shootCone": 30,
+    "shootSound": "flame2",
     "ammoTypes": {
    	    "cryofluid": {
             "type": "BasicBulletType",
@@ -23,7 +23,41 @@
             "damage": 15
             "width": 1,
             "length": 1,
-        }
+            "shootEffect": {
+               "type": "MultiEffect",
+               "effects": [
+            {
+            "type": "ParticleEffect",
+            "particles": 15,
+            "offset": 10,
+            "sizeFrom": 3,
+            "sizeTo": 0,
+            "interp": "circleOut",
+            "sizeInterp": "pow3In",
+            "length": 15,
+            "width": 15,
+            "lifetime" 15,
+            "colorFrom": "51B1CC",
+            "colorTo": "51B1CC",
+            "cone": 30
+            },
+            {
+            "type": "ParticleEffect",
+            "particles": 30,
+            "offset": 10,
+            "sizeFrom": 6,
+            "sizeTo": 0,
+            "interp": "circleOut",
+            "sizeInterp": "pow6In",
+            "length": 15,
+            "width": 15,
+            "lifetime": 25,
+            "colorFrom": "51B1CC",
+            "colorTo": "51B1CC",
+            "cone": 30
+            }
+         ]
+      }
    },
     "requirements": [
         "thorium/210",
