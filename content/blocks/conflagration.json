@@ -14,7 +14,7 @@
     "heatColor": "51B1CC",
     "shootY": 3,
     "shootCone": 30,
-    "shootEffect": "shootPyraFlame".
+    "shootEffect": "shootPyraFlame",
     "shootSound": "flame",
     "ammoTypes": {
    	    "titanium": {
