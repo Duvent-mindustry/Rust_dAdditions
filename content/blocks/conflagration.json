@@ -4,7 +4,7 @@
     "localizedName": "Conflagration",
     "size": 3,
     "health": 1200,
-    "reload": 12,
+    "reload": 6,
     "range": 90,
     "inaccuracy": 15,
     "targetAir": false,
@@ -29,6 +29,9 @@
         "hitSize": 10,
         "width": 0.1,
         "length": 0.05,
+	"hitEffect": "melting",
+	"status": "melting",
+	"statusDuration": 750,
       },
     "requirements": [
         "thorium/210",
