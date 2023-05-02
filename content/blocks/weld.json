@@ -1,6 +1,6 @@
 {
     "type": "ItemTurret",
-    "description": "An alternative shotgun that uses surge alloy to create electrified long range blast, great at single target destruction",
+    "description": "An alternative to the fuse that uses surge alloy to create electrified long range blast, great at single target destruction",
     "localizedName": "Weld",
     "size": 3,
     "health": 1540,
@@ -12,7 +12,7 @@
     "recoilAmount": 3.6,
     "rotateSpeed": 2,
     "shootShake": 8,
-    "shootSound": "yellowgun",
+    "shootSound": "surgefuse",
     "ammoTypes": {
         "surge-alloy": {
            "speed": 0.01,
