@@ -18,8 +18,8 @@
 	 "power": 4
     },
     "liquidConsumed": 0.6,
-    "shootSound": "lazorrrrr",
-    "loopSound": "loopneut",
+    "shootSound": "gleam1",
+    "loopSound": "gleam2",
     "hitEffect": "lightningCharge",
     "shootEffect": "lightningShoot",
     "ammoTypes": {
